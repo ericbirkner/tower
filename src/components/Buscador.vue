@@ -4,7 +4,7 @@
       <h1>Bienvenido al buscador de profesionales Tower</h1>
       
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Buscar profesional por nombre" v-model="nombre" @keypress="buscar()">
+        <input type="text" class="form-control" placeholder="Buscar profesional por nombre" v-model="nombre" @keyup="buscar()">
         <div class="input-group-append">
           <button class="btn btn-secondary" type="button" @click="buscar()">
             <i class="fa fa-search"></i>
